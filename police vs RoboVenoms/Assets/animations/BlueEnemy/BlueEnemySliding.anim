@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: BlueEnemySliding
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: 3c0938d12d3ed66438258cde00aff396, type: 3}
+    - time: 0.025
+      value: {fileID: 21300000, guid: 63f192846ec1f314c91d51acaddfc2d0, type: 3}
+    - time: 0.05
+      value: {fileID: 21300000, guid: 55758cc67234fd241a7012a031c5e001, type: 3}
+    - time: 0.075
+      value: {fileID: 21300000, guid: e16d4654be4c6a248ac8da19ea5f86db, type: 3}
+    - time: 0.1
+      value: {fileID: 21300000, guid: 51ed7f6715aeded4984ae862ffbf835d, type: 3}
+    - time: 0.125
+      value: {fileID: 21300000, guid: 70d9788db54ab18458d758a3a8cbebac, type: 3}
+    attribute: m_Sprite
+    path: Body
+    classID: 212
+    script: {fileID: 0}
+  m_SampleRate: 40
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 2073732236
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    pptrCurveMapping:
+    - {fileID: 21300000, guid: 3c0938d12d3ed66438258cde00aff396, type: 3}
+    - {fileID: 21300000, guid: 63f192846ec1f314c91d51acaddfc2d0, type: 3}
+    - {fileID: 21300000, guid: 55758cc67234fd241a7012a031c5e001, type: 3}
+    - {fileID: 21300000, guid: e16d4654be4c6a248ac8da19ea5f86db, type: 3}
+    - {fileID: 21300000, guid: 51ed7f6715aeded4984ae862ffbf835d, type: 3}
+    - {fileID: 21300000, guid: 70d9788db54ab18458d758a3a8cbebac, type: 3}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0.15
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events:
+  - time: 0
+    functionName: speedchanger
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 15
+    intParameter: 0
+    messageOptions: 0
